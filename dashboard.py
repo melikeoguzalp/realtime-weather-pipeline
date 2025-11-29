@@ -8,7 +8,7 @@ import time
 DB_HOST = "localhost"
 DB_NAME = "postgres"
 DB_USER = "postgres"
-DB_PASS = "12345"  # Senin belirlediğin şifre
+DB_PASS = "your_password"  # Senin belirlediğin şifre
 DB_PORT = "5432"
 
 # Sayfa Ayarları

@@ -9,7 +9,7 @@ KAFKA_SERVER = "kafka:29092"
 # Veritabanı Ayarları
 PG_URL = "jdbc:postgresql://veri-projesi-db:5432/postgres"
 PG_USER = "postgres"
-PG_PASSWORD = "12345"  # Senin ayarladığın şifre
+PG_PASSWORD = "your_password"  # Senin ayarladığın şifre
 PG_TABLE = "hava_durumu"
 
 # 1. Spark Oturumunu Başlat
