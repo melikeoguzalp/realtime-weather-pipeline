@@ -2,10 +2,6 @@
 
 Bu proje, **Open-Meteo API**'sinden canlı hava durumu verilerini alıp, **Apache Kafka** ile stream eden, **Apache Spark** ile işleyen ve **PostgreSQL** veritabanına kaydeden uçtan uca (End-to-End) bir veri mühendisliği projesidir. Sonuçlar **Streamlit** ile canlı olarak görselleştirilmiştir.
 
-## 🏗️ Mimari
-
-![Architecture](https://miro.medium.com/v2/resize:fit:1400/1*J2QSNM8W1A-X1iWq7jQWQA.png)
-*(Not: Buraya kendi çizdiğin bir mimari resmi de koyabilirsin, şimdilik temsilidir)*
 
 Proje şu adımlardan oluşur:
 1. **Data Ingestion:** Python scripti API'den veriyi çeker ve Kafka Topic'ine gönderir.
